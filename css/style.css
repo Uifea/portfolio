@@ -161,19 +161,19 @@ body {
 }
 
 .social-vk {
-    background-image: url("/images/icon/VK_logo.png");
+    background-image: url("../images/icon/VK_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .social-hh {
-    background-image: url("/images/icon/HeadHunter_logo.png");
+    background-image: url("../images/icon/HeadHunter_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .social-mail {
-    background-image: url("/images/icon/email-icon.png");
+    background-image: url("../images/icon/email-icon.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -241,7 +241,7 @@ body {
     display: inline-block;
     color: white;
     height: 350px;
-    background-image: url("/images/icon/html-icon.png");
+    background-image: url("../images/icon/html-icon.png");
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 89px 7px;
@@ -283,7 +283,7 @@ body {
     display: inline-block;
     color: white;
     height: 350px;
-    background-image: url("/images/icon/css3.png");
+    background-image: url("../images/icon/css3.png");
     background-repeat: no-repeat;
     background-size: 28%;
     background-position: 107px 7px;
@@ -325,7 +325,7 @@ body {
     display: inline-block;
     color: white;
     height: 350px;
-    background-image: url("/images/icon/javascript-icon.png");
+    background-image: url("../images/icon/javascript-icon.png");
     background-repeat: no-repeat;
     background-size: 68%;
     background-position: 38px 7px;
@@ -472,7 +472,7 @@ body {
 
 .contacts__item-phone {
     display: inline-block;
-    background-image: url("/images/icon/phone-icon.png");
+    background-image: url("../images/icon/phone-icon.png");
     background-repeat: no-repeat;
     background-size: 20%;
     padding-left: 50px;
@@ -481,7 +481,7 @@ body {
 }
 
 .contacts__item-email {
-    background-image: url("/images/icon/mail-icon.png");
+    background-image: url("../images/icon/mail-icon.png");
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: 0 -7px;
@@ -499,7 +499,7 @@ body {
 
 .contacts__item-hh {
     padding-top: 10px;
-    background-image: url("/images/icon/HeadHunter_logo.png");
+    background-image: url("../images/icon/HeadHunter_logo.png");
     background-repeat: no-repeat;
     background-size: 20%;
     cursor: pointer;
@@ -517,7 +517,7 @@ body {
 .contacts__item-vk {
     cursor: pointer;
     padding-top: 10px;
-    background-image: url("/images/icon/VK_logo.png");
+    background-image: url("../images/icon/VK_logo.png");
     background-repeat: no-repeat;
     background-size: 20%;
 }
