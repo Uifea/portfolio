@@ -434,7 +434,7 @@ body {
     -webkit-box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 0.5fr 1fr;
     grid-template-areas: "title img" "list img";
 }
@@ -468,7 +468,7 @@ body {
     grid-area: list;
     justify-self: flex-start;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-template-rows: 1fr 1fr;
     -webkit-column-gap: 60px;
     -moz-column-gap: 60px;
@@ -489,9 +489,9 @@ body {
 .contacts__item-email {
     background-image: url("../images/icon/mail-icon.png");
     background-repeat: no-repeat;
-    background-size: 25%;
-    background-position: 0 -7px;
-    padding-left: 65px;
+    background-size: 20%;
+    background-position: 0 -11px;
+    padding-left: 78px;
     padding-top: 10px;
 }
 
@@ -505,9 +505,11 @@ body {
 
 .contacts__item-hh {
     padding-top: 10px;
+    padding-left: 18px;
     background-image: url("../images/icon/HeadHunter_logo.png");
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-position: 7px 0;
+    background-size: 16%;
     cursor: pointer;
 }
 
