@@ -695,12 +695,12 @@ body {
         margin-bottom: 20px;
     }
 
-    .contacts__photo {
-        display: none;
-    }
-
     .contacts {
         grid-template-columns: 1fr;
+    }
+
+    .contacts__photo {
+        display: none;
     }
 }
 
