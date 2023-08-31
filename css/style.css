@@ -390,7 +390,7 @@ body {
     content: "";
     position: absolute;
     top: 0px;
-    width: 70%;
+    width: 80%;
     height: 10px;
     background-color: white;
     border-radius: 10px;
@@ -432,7 +432,7 @@ body {
     content: "";
     position: absolute;
     top: 0px;
-    width: 50%;
+    width: 60%;
     height: 10px;
     background-color: white;
     border-radius: 10px;
@@ -474,7 +474,7 @@ body {
     content: "";
     position: absolute;
     top: 0px;
-    width: 20%;
+    width: 40%;
     height: 10px;
     background-color: white;
     border-radius: 10px;
