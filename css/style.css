@@ -623,6 +623,8 @@ body {
     height: 70%;
     border: 2px solid rgba(179, 163, 229, 0.368627451);
     align-self: center;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .portfolio__description {
