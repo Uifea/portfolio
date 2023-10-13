@@ -18,7 +18,7 @@
             </ul>
             <div class="hero__info">
                 <p>Привет! Меня зовут Евгения.</p>
-                <h1 class="hero__title">Я HTML-верстальщик и занимаюсь вёрсткой страниц для сайта по готовым макетам</h1>
+                <h1 class="hero__title animation">Я HTML-верстальщик и занимаюсь вёрсткой страниц для сайта по готовым макетам</h1>
                 <div class="hero__social-list">
                     <a href="https://tver.hh.ru/resume/8c7651bcff02b05c5a0039ed1f5a6373386448" target="_blank"><span class="hero__social-item social-hh">HH</span></a>
                     <a href="https://vk.com/id25943515" target="_blank"><span class="hero__social-item social-vk">VK</span></a>
@@ -29,7 +29,7 @@
                     <a href="#contacts" class="btn btn--gradient">Контакты</a>
                 </div>
             </div>
-            <div class="hero__photo">
+            <div class="hero__photo animation">
                 <img src="images/photo-1.jpg" class="hero__photo--image" alt="Фотография">
                 <span class="hero__line-1"></span>
                 <span class="hero__line-2"></span>
@@ -43,7 +43,7 @@
             <div class="about__text animation">
                 <p>Привет! Меня зовут Серагова Евгения Николаевна. Я занимаюсь вёрсткой сайтов около полугода, до этого работала контент-менеджером в компании по производству терминалов. В работе часто вносила правки в вёрстку программного обеспечения, а также занималась правкой и локализацией ошибок в работе CMS. </p>
                 <p>В 2015 году получила диплом по специальности «Программирование в компьютерных системах». Также училась полтора года в университете по программе «Программная инженерия». В ходе обучения получила опыт работы с языком Python.</p>
-                <p>Изучала вёрстку более углублено самостоятельно через видео-уроки и вебинары. Продолжаю практиковаться и самосовершенствоваться, изучая все больше новых технологий.</p>
+                <p>Изучала вёрстку более углублено самостоятельно через видео-уроки и вебинары. Также прошла все тренажеры на сайте htmlacademy.ru.</p>
                 <p>Вижу себя, как ответственного и трудолюбивого человека. Умею работать с видеоредактором и фотошопом. Работу сейчас ищу удаленного формата, что никак не повлияет на работоспособность, так как дома в рабочее время нет никаких отвлекающих факторов. В рабочее время я постоянно на связи. Хорошо работаю в команде, но также отлично справляюсь самостоятельно.</p>
             </div>
         </section>
@@ -66,7 +66,7 @@
                     <div class="skills__js-scale">
                         <span class="skills__html-procent">40%</span>
                     </div>
-                    <p>Хорошо знаю основы чистого JavaScript, умею работать с объектами и массивами.</p>
+                    <p>Хорошо знаю основы чистого JavaScript, умею работать с объектами и массивами. В качестве фреймворка использую и продолжаю изучать Vue 3.js</p>
                 </div>
             </div>
             <div class=" skills__other animation">
@@ -75,6 +75,12 @@
         </section>
         <section class="portfolio min-wrapper" id="portfolio">
             <h2 class="portfolio__title animation">Портфолио</h2>
+            <div class="portfolio__block animation">
+                <h3 class="portfolio__subtitle">Shiny Counter</h3>
+                <p class="portfolio__description">Данное приложение было написано на Vue 3.js, в работе использовалось PokeApi для подгрузки картинок и имен, подгрузка осуществлялась с помощью async/await. Для работы с разными страницами используется Router</p>
+                <a href="https://uifea.github.io/ShinyCounter/" class="btn btn--portfolio" target="_blank">Перейти</a>
+                <img src="images/ShinyCounter_.png" class="portfolio__image" alt="Shiny Counter">
+            </div>
             <div class="portfolio__block animation">
                 <h3 class="portfolio__subtitle">Todo List</h3>
                 <p class="portfolio__description">Данный сайт написан на чистом JavaScript, задачи записываются в виде объектов в массив. Для сохранения информации используется LocalStorage.</p>
@@ -99,7 +105,7 @@
                 <a href="https://uifea.github.io/mishkashop/" class="btn btn--portfolio" target="_blank">Перейти</a>
                 <img src="images/mishkashop.png" class="portfolio__image" alt="Сайт Мишкашоп">
             </div>
-            <!-- <div class="portfolio__block animation">
+            <div class="portfolio__block animation">
                 <h3 class="portfolio__subtitle">Воркшоп</h3>
                 <p class="portfolio__description">Данный лэндинг был написан на чистом css с использование методологии БЭМ, без использования таск-менеджеров. Добавлена адаптивная вёрстка.</p>
                 <a href="https://uifea.github.io/vorkshop/" class="btn btn--portfolio" target="_blank">Перейти</a>
@@ -110,7 +116,7 @@
                 <p class="portfolio__description">Интернет-магазин мороженного состоящий из 3 страниц. Без адаптивной вёрстки. В проекте использовался JavaScript.</p>
                 <a href="https://uifea.github.io/gllacy/" class="btn btn--portfolio" target="_blank">Перейти</a>
                 <img src="images/gllacy.png" class="portfolio__image" alt="Сайт Gllacy">
-            </div> -->
+            </div>
         </section>
         <section class="contacts wrapper" id="contacts">
             <h2 class="contacts__title animation">Контакты</h2>
